@@ -55,8 +55,8 @@ grid-row: 1;
 
 #germany {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
     height: 300px;
     width: 400px;
 
