@@ -1,0 +1,14 @@
+body {
+
+  }
+
+#box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    height: 300px;
+    width: 400px;
+    border: black;
+}
+
+
