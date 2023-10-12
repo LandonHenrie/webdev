@@ -1,0 +1,72 @@
+header {
+    background-color: purple;
+    height: 20vh;
+    margin: 10px;
+    animation-name: color-swap;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation: color-swap 5s linear 2s infinite;
+}
+
+nav > div {
+    background-color: skyblue;
+    height: 50px;
+    margin: 10px;
+}
+
+aside {
+    background-color: royalblue;
+    height: 50vh;
+    margin: 10px;
+}
+
+footer {
+    background-color: blue;
+    height: 10vh;
+    margin: 10px;
+    animation-name: foot;
+    animation-delay: 4s;
+}
+
+@keyframes color-swap {
+    0% {background-color: purple;}
+    25% {background-color: orange;}
+    50% {background-color: green;}
+    100% {background-color: red;}
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        height: 15vh;
+    }
+
+    
+
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    nav > div {
+        height: 27px;
+        width: 100px;
+    }
+
+    aside {
+        width: 25vw;
+    }
+}
+@keyframes footer  {
+    from {width: 100%}
+    to {width: 50%;}
+}
+
+@keyframes foot {
+    0% {background-color: black;}
+    25% {background-color: lightcoral;}
+    50% {background-color: lightcyan;}
+    100% {background-color: lightsalmon;}
+}
+
