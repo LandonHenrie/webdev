@@ -58,15 +58,9 @@ footer {
         width: 25vw;
     }
 }
-@keyframes footer  {
+
+@keyframes size-swap {
     from {width: 100%}
     to {width: 50%;}
-}
-
-@keyframes foot {
-    0% {background-color: black;}
-    25% {background-color: lightcoral;}
-    50% {background-color: lightcyan;}
-    100% {background-color: lightsalmon;}
 }
 
