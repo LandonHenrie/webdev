@@ -1,0 +1,12 @@
+body {
+    background-color: grey;
+}
+
+#input {
+    color: aquamarine;
+}
+
+#contact (
+    display: flex;
+    align-items: flex-end;
+)
