@@ -6,7 +6,12 @@ body {
     color: aquamarine;
 }
 
-#contact (
+#contact {
     display: flex;
     align-items: flex-end;
-)
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
